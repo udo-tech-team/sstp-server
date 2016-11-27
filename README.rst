@@ -27,6 +27,16 @@ Install from GitHub:
     # pip install git+https://github.com/sorz/sstp-server.git
 
 
+Install On Centos:
+::
+## pre-requirements:
+    # sudo yum install git gcc libffi-devel python-devel openssl-devel  python-twisted
+
+## get source and install
+    # mkdir -p path/to/dir && cd path/to/dir
+    # git  clone https://github.com/udo-tech-team/sstp-server.git
+    # sudo python setup.py  install
+
 Usage
 -----
 
